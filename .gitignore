@@ -1,0 +1,8 @@
+# Ignores files of varying extensions
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
