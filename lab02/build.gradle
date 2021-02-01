@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+application{
+    mainClassName = 'csci2020u.lab02.SimpleTest'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.apache.commons:commons-csv:1.8' // Fetches library specified for main source code
+	testImplementation 'junit:junit:4.13' // Fetches library 'junit' for test source
+}
