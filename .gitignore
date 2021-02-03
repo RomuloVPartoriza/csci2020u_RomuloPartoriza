@@ -6,3 +6,6 @@
 *.rar
 *.tar
 *.zip
+
+# ignore proguard
+proguard/*
